@@ -11,33 +11,33 @@ const OurStory = () => {
 
   const milestones = [
     {
-      year: '2021',
+      year: '2012',
       title: 'Company Founded',
-      description: 'Millat Polymer & Rubber established with a vision to become a leading manufacturer',
+      description: 'Millat Polymer & Rubber established with a vision for excellence',
       icon: <Factory className="h-6 w-6" />
     },
     {
-      year: '2022',
+      year: '2013',
       title: 'First Major Contract',
-      description: 'Secured first major OEM contract, establishing credibility in the market',
+      description: 'Secured first major export order to Netherlands',
       icon: <Award className="h-6 w-6" />
     },
     {
-      year: '2023',
+      year: '2020',
       title: 'ISO Certification',
-      description: 'Achieved ISO 9001:2015 certification for quality management systems',
+      description: 'Achieved ISO 9001:2015 quality management certification',
       icon: <Award className="h-6 w-6" />
     },
     {
-      year: '2024',
-      title: 'Export Markets',
-      description: 'Expanded to international markets including Netherlands, UAE, and Australia',
+      year: '2022',
+      title: 'Market Expansion',
+      description: 'Expanded to 15+ countries across multiple continents',
       icon: <Globe className="h-6 w-6" />
     },
     {
       year: '2025',
-      title: 'Continued Growth',
-      description: 'Ongoing expansion of product lines and manufacturing capabilities',
+      achievement: 'Production Milestone',
+      description: 'Reached 500+ tons monthly production capacity',
       icon: <TrendingUp className="h-6 w-6" />
     }
   ];
@@ -73,7 +73,7 @@ const OurStory = () => {
               </h2>
               <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                 <p>
-                  Founded in 2021, Millat Polymer & Rubber emerged from a vision to bridge the gap between quality manufacturing and customer-centric service in Pakistan's polymer industry. Our founder, Sheikh Abid Ali, recognized the growing demand for high-quality rubber and plastic components in both domestic and international markets.
+                  Founded in 2012, Millat Polymer & Rubber emerged from a vision to bridge the gap between quality manufacturing and customer-centric service in Pakistan's polymer industry. Our founder, Sheikh Abid Ali, recognized the growing demand for high-quality rubber and plastic components in both domestic and international markets.
                 </p>
                 <p>
                   Starting with a small facility and a dedicated team of skilled professionals, we faced the early challenges of establishing credibility in a competitive market. Through unwavering commitment to quality and innovation, we gradually built trust with our first clients and began our journey toward becoming a leading manufacturer.

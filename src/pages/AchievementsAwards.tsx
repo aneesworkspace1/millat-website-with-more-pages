@@ -12,25 +12,25 @@ const AchievementsAwards = () => {
   const awards = [
     {
       title: 'ISO 9001:2015 Certification',
-      year: '2023',
+      year: '2020',
       description: 'Achieved international quality management system certification, demonstrating our commitment to consistent quality and customer satisfaction.',
       category: 'Quality Excellence'
     },
     {
       title: 'Export Excellence Award',
-      year: '2024',
+      year: '2022',
       description: 'Recognized by the Pakistan Export Development Fund for outstanding performance in international markets.',
       category: 'Export Achievement'
     },
     {
       title: 'Best Manufacturing Practices',
-      year: '2024',
+      year: '2023',
       description: 'Honored by the Lahore Chamber of Commerce for implementing innovative manufacturing processes and operational excellence.',
       category: 'Manufacturing Excellence'
     },
     {
       title: 'Environmental Stewardship Award',
-      year: '2024',
+      year: '2023',
       description: 'Acknowledged for implementing sustainable manufacturing practices and environmental conservation initiatives.',
       category: 'Sustainability'
     },
@@ -50,22 +50,22 @@ const AchievementsAwards = () => {
 
   const milestones = [
     {
-      year: '2021',
+      year: '2012',
       achievement: 'Company Establishment',
       description: 'Founded Millat Polymer & Rubber with a vision for excellence'
     },
     {
-      year: '2022',
+      year: '2013',
       achievement: 'First International Contract',
       description: 'Secured first major export order to Netherlands'
     },
     {
-      year: '2023',
+      year: '2020',
       achievement: 'ISO Certification',
       description: 'Achieved ISO 9001:2015 quality management certification'
     },
     {
-      year: '2024',
+      year: '2022',
       achievement: 'Market Expansion',
       description: 'Expanded to 15+ countries across multiple continents'
     },
@@ -227,7 +227,7 @@ const AchievementsAwards = () => {
                 <Award className="h-8 w-8" />
               </div>
               <h3 className="text-3xl font-bold text-secondary mb-2">4</h3>
-              <p className="text-lg font-semibold">Years of Excellence</p>
+              <p className="text-lg font-semibold">13+ Years of Excellence</p>
             </Card>
           </div>
         </div>

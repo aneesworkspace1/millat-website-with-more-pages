@@ -36,7 +36,7 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                 <p>
-                  Welcome to Millat Polymer Industries. Since our inception, we have been committed to a singular goal: to establish a benchmark of quality and trust in the polymer industry. Our journey is fueled by a passion for innovation and a dedication to our clients' success.
+                  Welcome to Millat Polymer Industries. Since our inception in 2012, we have been committed to a singular goal: to establish a benchmark of quality and trust in the polymer industry. Our journey is fueled by a passion for innovation and a dedication to our clients' success.
                 </p>
                 <p>
                   We believe in building lasting partnerships, and that begins with delivering products that you can rely on. Thank you for considering Millat Polymer as your trusted manufacturing partner.

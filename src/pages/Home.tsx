@@ -50,7 +50,7 @@ const Home = () => {
               Welcome to <span className="text-primary">Millat Polymer & Rubber</span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              MILLAT POLYMER & RUBBER (Pvt) Ltd, is one of the leading manufacturing organization in Pakistan, has made quantum leaps to achieve excellence in the field of Plastic, Rubber and Rubber to metal bonded Automotive & Industrial Spare Parts. The company, under the visionary leadership of its Chairman Sheikh Abid Ali and a team of dedicated professionals has achieved major land marks and established strong foot holds in the domestic as well as foreign Export markets with a special focus on the Netherlands, UAE, Australia and European applications. Millat is catering to a world-wide client base and has an impressive list of customers both in the OEMs & After Market segments.
+              MILLAT POLYMER & RUBBER (Pvt) Ltd, founded in 2012, is one of the leading manufacturing organization in Pakistan, has made quantum leaps to achieve excellence in the field of Plastic, Rubber and Rubber to metal bonded Automotive & Industrial Spare Parts. The company, under the visionary leadership of its Chairman Sheikh Abid Ali and a team of dedicated professionals has achieved major land marks and established strong foot holds in the domestic as well as foreign Export markets with a special focus on the Netherlands, UAE, Australia and European applications. Millat is catering to a world-wide client base and has an impressive list of customers both in the OEMs & After Market segments.
             </p>
             <Link to="/about" className="btn-primary inline-flex items-center space-x-2">
               <span>Learn More About Us</span>

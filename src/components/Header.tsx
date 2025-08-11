@@ -105,7 +105,8 @@ const Header = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-x-2 text-gray-800 font-medium text-xs xl:text-sm tracking-wide overflow-x-auto">
+        <nav className="hidden lg:block text-gray-800 font-medium text-xs xl:text-sm tracking-wide">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
           {navigationLinks.map((link) => (
             <div key={link.name} className="relative group">
               {link.dropdown ? (
@@ -120,7 +121,7 @@ const Header = () => {
                     {link.name}
                     <ChevronDown className="h-4 w-4 ml-1" />
                   </button>
-                  <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[9999] pointer-events-none group-hover:pointer-events-auto">
                     <div className="py-2">
                       {link.dropdown.map((item) => (
                         <Link
@@ -148,6 +149,7 @@ const Header = () => {
               )}
             </div>
           ))}
+          </div>
         </nav>
 
         {/* CTA Button */}

@@ -13,7 +13,7 @@ const LeadershipTeam = () => {
     {
       name: 'Sheikh Abid Ali',
       position: 'Chairman & Founder',
-      bio: 'Visionary leader with over 15 years of experience in polymer manufacturing. Under his leadership, Millat Polymer has achieved remarkable growth and international recognition.',
+      bio: 'Visionary leader with over 25 years of experience in polymer manufacturing. Under his leadership, Millat Polymer has achieved remarkable growth and international recognition since founding the company in 2012.',
       image: '/images/chairman-placeholder.jpg'
     },
     {

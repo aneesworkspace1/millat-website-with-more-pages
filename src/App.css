@@ -136,6 +136,19 @@ body {
   padding: 0 1rem;
 }
 
+/* Header dropdown fix */
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:visible {
+  visibility: visible;
+}
+
+.group:hover .group-hover\:pointer-events-auto {
+  pointer-events: auto;
+}
+
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
